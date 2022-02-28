@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./favicon.ico?" type="image/x-icon">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="main">
+        <div class="side-bar">
+            <div class="big-logo-container">
+                <div class="small-logo-container">
+                    <img src="./odin-lined.png" alt="odin logo" class="logo">
+                </div>
+                <div class="logo-text">Odin</div>
+            </div>
+            <div class="image-credit">
+                Photo by &nbsp
+                <a href="https://unsplash.com/@samuele_piccarini">Samuele Errico Piccarini</a>
+                &nbsp on &nbsp<a href="https://unsplash.com/photos/t4OxCpKie70">Unsplash</a>
+            </div>
+        </div>
+        <div class="form-container">
+            <div class="form-explanation">
+                This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up <em>now</em> to get started.
+                <br><br>
+                You know you want to.
+            </div>
+            <form action="" method="post" class="sign-up-form">
+                <div class="form-body">
+                    <div class="form-title">Let's do this!</div>
+                    <div class="form-inputs">
+                        <div class="form-input-column">
+                            <div><label for="first-name">FIRST NAME</label></div>
+                            <input type="text" name="first-name" id="first-name" required>
+                            <div><label for="email">EMAIL</label></div>
+                            <input type="email" name="email" id="email" required>
+                            <div><label for="password">PASSWORD</label></div>
+                            <input type="password" name="password" id="password" required>
+                        </div>
+                        <div class="form-input-column">
+                            <div><label for="last-name">LAST NAME</label></div>
+                            <input type="text" name="last-name" id="last-name" required>
+                            <div><label for="phone">PHONE NUMBER</label></div>
+                            <input type="tel" name="phone" id="phone" required>
+                            <div><label for="confirm-password">CONFIRM PASSWORD</label></div>
+                            <input type="password" name="confirm-password" id="confirm-password" required>
+                            <div class="password-error-message"></div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+            <div class="login-option">
+                Already have an account? <a href="#">Log in</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
